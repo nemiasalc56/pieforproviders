@@ -1,0 +1,97 @@
+.third-container h1 {
+	font-family: ProximaNova;
+	font-size: 32px;
+	line-height: 37px;
+	letter-spacing: 0.977778px;
+	text-align: center;
+}
+
+.third-container p {
+	color: #006C9E;
+}
+
+
+.logo-container {
+	display: flex;
+	justify-content: center;
+}
+
+.icon-1 {
+	border-radius: 40px;
+	width: 40px;
+	height: 40px;
+	background: #006C9E;
+	display: flex;
+	justify-content: center;
+}
+
+.icon-1 div {
+	align-self: center;
+}
+
+.icon-2 div {
+	align-self: center;
+}
+.icon-3 div {
+	align-self: center;
+}
+.icon-4 div {
+	align-self: center;
+}
+
+.icon-2, .icon-3, .icon-4 {
+	border-radius: 40px;
+	width: 40px;
+	height: 40px;
+	background: #E8EBEE;
+	display: flex;
+	justify-content: center;
+}
+
+.icon-line {
+	display: flex;
+}
+
+.line-1 {
+	border: 3px solid #006C9E;
+	width: 200px;
+	height: 0px;
+	align-self: center;
+}
+
+.line-2 {
+	border: 3px solid #E8EBEE;
+	width: 200px;
+	height: 0px;
+	align-self: center;
+}
+
+input {
+	width: 200px;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+	border-bottom: 1px solid #006C9E;
+}
+
+.next-button {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.next-button div {
+	align-self: center;
+	margin: 3px;
+}
+
+.next-button p {
+	color: #006C9E;
+}
+
+.next-button div:hover {
+	cursor: pointer;
+}
+
+#arrow {
+	margin-right: 30px;
+}
